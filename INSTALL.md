@@ -22,10 +22,10 @@ pip install "git+https://github.com/riyannode/x402-batch-codec-py.git@ec5af6a5c6
 
 ```bash
 # TypeScript
-npm install github:riyannode/x402-header-agent#3d9ed177adf2fe5749aec7e54fca1dadd8b2549b
+npm install github:riyannode/x402-header-agent#b4552fa1c584599dae027413f13ede335865b490
 
 # Native Python
-pip install "git+https://github.com/riyannode/x402-header-agent.git@3d9ed177adf2fe5749aec7e54fca1dadd8b2549b#subdirectory=python"
+pip install "git+https://github.com/riyannode/x402-header-agent.git@b4552fa1c584599dae027413f13ede335865b490#subdirectory=python"
 ```
 
 [Source and usage guide](https://github.com/riyannode/x402-header-agent)
