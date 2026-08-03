@@ -2,15 +2,15 @@
 
 These packages are installed from GitHub. Every command below pins a specific source commit.
 
-## x402-batch-codec — TypeScript batch proof
+## x402-batch-codec — TypeScript batch evidence
 
 ```bash
-npm install github:riyannode/x402-batch-codec#d4181f1613de6a7a5ba87938e20f6e81f9ce40ff
+npm install github:riyannode/x402-batch-codec#b9d26e433959b36bb5af529a5348c8caf312a322
 ```
 
 [Source and usage guide](https://github.com/riyannode/x402-batch-codec)
 
-## x402-batch-codec-py — Python batch proof
+## x402-batch-codec-py — Python batch evidence utilities
 
 ```bash
 pip install "git+https://github.com/riyannode/x402-batch-codec-py.git@ec5af6a5c6e98c7fbd40db3033ce6ed3a0af83b7"
