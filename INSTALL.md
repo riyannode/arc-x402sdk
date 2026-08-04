@@ -13,7 +13,7 @@ npm install github:riyannode/x402-batch-codec#83060aec553cf0d63d69df51509db375aa
 ## x402-batch-codec-py — Python batch evidence utilities
 
 ```bash
-pip install "git+https://github.com/riyannode/x402-batch-codec-py.git@ec5af6a5c6e98c7fbd40db3033ce6ed3a0af83b7"
+pip install "git+https://github.com/riyannode/x402-batch-codec-py.git@aefea0c53d58f53c73a2a7f675221ae6652155d6""
 ```
 
 [Source and usage guide](https://github.com/riyannode/x402-batch-codec-py)
