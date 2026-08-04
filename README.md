@@ -25,7 +25,7 @@ Use the full commit SHA for reproducible installs. See [INSTALL.md](INSTALL.md).
 - Exact payment amount attribution is not currently provided.
 - Portable encoded evidence objects are unsigned metadata, not cryptographic attestations.
 - Direct smart-contract verification is not included.
-- No official Circle transfer UUID-to-batch mapping is assumed.
+- Circle Gateway provides an official batch-level txHash for each x402 transfer once available. Multiple transfers in the same batch may share the same txHash. This is an off-chain API mapping, not a Solidity-verifiable attestation.
 
 ## Scope
 
