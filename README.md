@@ -11,7 +11,7 @@ A small home for reusable Arc, Circle Gateway, and x402 primitives. Each SDK rem
 | Build an x402 buyer, seller, or dual-role service with Circle DCW | `x402-header-agent` (TypeScript + Python) | [GitHub](https://github.com/riyannode/x402-header-agent) |
 | Build a LangChain Deep Agent with ERC-8004 identity and optional x402 tools | `deepagent-x402-kit` (Python) | [GitHub](https://github.com/riyannode/deepagent-x402-kit) |
 
-The Python package provides a Python `submitBatch` decoder and batch evidence utilities. Resolver and verification behavior may differ from the hardened TypeScript implementation; this hub does not claim full parity.
+The Python package provides an independently implemented Python submitBatch decoder and portable batch evidence utilities targeting behavioral parity with the hardened TypeScript v0.2.0 implementation.
 
 ## Installation
 
