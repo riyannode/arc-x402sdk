@@ -5,7 +5,7 @@ These packages are installed from GitHub. Every command below pins a specific so
 ## x402-batch-codec — TypeScript batch evidence
 
 ```bash
-npm install github:riyannode/x402-batch-codec#b9d26e433959b36bb5af529a5348c8caf312a322
+npm install github:riyannode/x402-batch-codec#83060aec553cf0d63d69df51509db375aa3e02cd
 ```
 
 [Source and usage guide](https://github.com/riyannode/x402-batch-codec)
