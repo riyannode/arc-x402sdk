@@ -2,7 +2,7 @@
 
 A small home for reusable Arc, Circle Gateway, and x402 primitives. Each SDK remains in its own source repository; this repo only helps builders find and install the right one.
 
-### Gateway batch terminology
+## Gateway batch terminology
 
 Circle Gateway exposes both a REST batching API and an onchain batch settlement function:
 
@@ -20,7 +20,7 @@ The `x402-batch-codec` packages decode and validate the onchain `GatewayWallet.s
 | Build an x402 buyer, seller, or dual-role service with Circle DCW | `x402-header-agent` (TypeScript + Python) | [GitHub](https://github.com/riyannode/x402-header-agent) |
 | Build a LangChain Deep Agent with ERC-8004 identity and optional x402 tools | `deepagent-x402-kit` (Python) | [GitHub](https://github.com/riyannode/deepagent-x402-kit) |
 
-The Python package provides an independently implemented Python submitBatch decoder and portable batch evidence utilities targeting behavioral parity with the hardened TypeScript v0.2.0 implementation.
+`x402-batch-codec-py` provides an independently implemented Python batch decoder and portable evidence utilities targeting behavioral parity with the TypeScript codec.
 
 ## Installation
 
