@@ -1,6 +1,6 @@
 # Install
 
-These packages are installed from GitHub. Every command below pins a specific source commit.
+These projects are installed or checked out from GitHub. Every command below pins a specific source commit.
 
 ## x402-batch-codec — TypeScript batch evidence
 
@@ -18,6 +18,19 @@ python -m pip install \
 ```
 
 [Source and usage guide](https://github.com/riyannode/x402-batch-codec-py)
+
+## arc-dcw-gateway-kit — Durable Circle DCW + Gateway wallet infrastructure
+
+```bash
+git clone https://github.com/riyannode/arc-dcw-gateway-kit.git
+cd arc-dcw-gateway-kit
+git checkout 3445f730a6a7d5a3365341a967e05aad5e3a33f5
+bun install --frozen-lockfile
+bun run build
+```
+
+[Source and usage guide](https://github.com/riyannode/arc-dcw-gateway-kit)
+
 
 ## x402-header-agent — Circle DCW x402 buyer/seller
 
