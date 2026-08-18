@@ -17,9 +17,9 @@ The `x402-batch-codec` packages decode and validate the onchain `GatewayWallet.s
 |---|---|---|
 | Decode onchain `GatewayWallet.submitBatch(bytes,bytes)` settlement data and address participation evidence | `x402-batch-codec` (TypeScript) | [GitHub](https://github.com/riyannode/x402-batch-codec) |
 | Python implementation of the batch decoder and evidence utilities | `x402-batch-codec-py` | [GitHub](https://github.com/riyannode/x402-batch-codec-py) |
+| Build durable per-user Circle DCW + Gateway wallet infrastructure with resumable deposits, withdrawals, and recovery | `arc-dcw-gateway-kit` (TypeScript) | [GitHub](https://github.com/riyannode/arc-dcw-gateway-kit) |
 | Build an x402 buyer, seller, or dual-role service with Circle DCW | `x402-header-agent` (TypeScript + Python) | [GitHub](https://github.com/riyannode/x402-header-agent) |
 | Build a LangChain Deep Agent with ERC-8004 identity and optional x402 tools | `deepagent-x402-kit` (Python) | [GitHub](https://github.com/riyannode/deepagent-x402-kit) |
-| Build durable per-user Circle DCW + Gateway wallet infrastructure with resumable deposits, withdrawals, and recovery | `arc-dcw-gateway-kit` (TypeScript) | [GitHub](https://github.com/riyannode/arc-dcw-gateway-kit) |
 
 `x402-batch-codec-py` provides an independently implemented Python batch decoder and portable evidence utilities targeting behavioral parity with the TypeScript codec.
 
