@@ -36,10 +36,10 @@ bun run build
 
 ```bash
 # TypeScript
-npm install github:riyannode/x402-header-agent#b4552fa1c584599dae027413f13ede335865b490
+npm install github:riyannode/x402-header-agent#1d7223ffa3573d974efe22fafc6a99e4991e0d4e
 
 # Native Python
-pip install "git+https://github.com/riyannode/x402-header-agent.git@b4552fa1c584599dae027413f13ede335865b490#subdirectory=python"
+pip install "git+https://github.com/riyannode/x402-header-agent.git@1d7223ffa3573d974efe22fafc6a99e4991e0d4e#subdirectory=python"
 ```
 
 [Source and usage guide](https://github.com/riyannode/x402-header-agent)
