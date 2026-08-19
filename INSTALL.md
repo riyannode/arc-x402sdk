@@ -5,7 +5,7 @@ These projects are installed or checked out from GitHub. Every command below pin
 ## x402-batch-codec — TypeScript batch evidence
 
 ```bash
-npm install github:riyannode/x402-batch-codec#83060aec553cf0d63d69df51509db375aa3e02cd
+npm install github:riyannode/x402-batch-codec#223adf204bfb77c6fcea515881f785aed2f773ee
 ```
 
 [Source and usage guide](https://github.com/riyannode/x402-batch-codec)
@@ -14,7 +14,7 @@ npm install github:riyannode/x402-batch-codec#83060aec553cf0d63d69df51509db375aa
 
 ```bash
 python -m pip install \
-  "x402-batch-codec-py[rpc] @ git+https://github.com/riyannode/x402-batch-codec-py.git@aefea0c53d58f53c73a2a7f675221ae6652155d6"
+  "x402-batch-codec-py[rpc] @ git+https://github.com/riyannode/x402-batch-codec-py.git@7cfe04b2e81a2fe2bf9bc095bc00b3f831745232"
 ```
 
 [Source and usage guide](https://github.com/riyannode/x402-batch-codec-py)
